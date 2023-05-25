@@ -40,5 +40,5 @@ En plataformas de repositorios remotos como *GitHub*, la función de este archiv
 
 ### 1.2.2 Negrita y cursiva  
 
-| Estilo | Métodos abreviados | Sintaxis | Ejemplo | Salida
+| Estilo | Métodos abreviados | Sintaxis | Ejemplo | Salida |
 | Negrita | Command+B (Mac) o Ctrl+B (Windows/Linux) | \*\* \*\ o \_\_ \_\_ | \*\*Texto en negrita\*\* | **Texto en negrita** |
