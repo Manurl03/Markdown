@@ -125,3 +125,15 @@ Markdown:
 > El error, está en que el nombre del archivo que hay dentro de la carpeta
 "images" es "instituto.jpg".  
 **HTML renderizado en GitHub:**  
+
+![imagen1](https://pro.iesdonana.org/assets/logo.png "Leyenda de la imagen")  
+
+<p align="center">
+<img src="https://pro.iesdonana.org/assets/logo.png" alt="JuveR
+</p>  
+                                                          
+![imagen3](/images/instituto.jpeg)  
+                                                          
+#### 1.2.7.2 Listas desordenadas anidadas  
+                                                          
+                                                          
