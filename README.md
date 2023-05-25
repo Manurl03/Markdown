@@ -57,4 +57,45 @@ Al inicio del bloque se puede indicar de forma opcional cuál es el tipo de cont
 que contiene el bloque para resaltar las palabras reservadas cuando se renderice.
 Por ejemplo: `bash , python , yaml , json , html , javascript` , etc.  
 > Para omitir las comillas triple de bloque (```), podemos albergar todo el bloque
-con cuatro comillas (````), o escapar a cada comilla con (\`).
+con cuatro comillas (````), o escapar a cada comilla con (\`).  
+**Sintaxis Markdown**  
+```` 
+```
+sudo systemctl start apache2
+```
+````  
+
+```` 
+```bash
+#!/bin/bash
+echo "Hola mundo"
+```
+````  
+
+```` 
+```python
+celsius = float(input('Introduce una temperatura en grados
+Celsius: '))
+farenheit = (1.8 * celsius) + 32
+print(f'La temperatura en grados Farenheit es: {farenheit}')
+```
+````  
+
+**HTML renderizado en GitHub**  
+
+```
+sudo systemctl start apache2
+```  
+
+```bash
+#!/bin/bash
+echo "Hola mundo"
+```  
+
+```python
+celsius = float(input('Introduce una temperatura en grados
+Celsius: '))
+farenheit = (1.8 * celsius) + 32
+print
+```  
+
