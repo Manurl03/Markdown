@@ -47,4 +47,14 @@ En plataformas de repositorios remotos como *GitHub*, la función de este archiv
 
 ### 1.2.3 Resaltar un comando
 **Sintaxis Markdown:**  
-En esta frase estamos resaltando el comando \`ls -la\`
+En esta frase estamos resaltando el comando \`ls -la\`  
+**HTML renderizado en GitHub**  
+En esta frase estamos resaltando el comando `ls -la`  
+
+### 1.2.4 Bloques de código  
+
+Al inicio del bloque se puede indicar de forma opcional cuál es el tipo de contenido
+que contiene el bloque para resaltar las palabras reservadas cuando se renderice.
+Por ejemplo: `bash , python , yaml , json , html , javascript` , etc.  
+> Para omitir las comillas triple de bloque (```), podemos albergar todo el bloque
+con cuatro comillas (````), o escapar a cada comilla con (\`).
