@@ -42,4 +42,6 @@ En plataformas de repositorios remotos como *GitHub*, la función de este archiv
 
 | Estilo | Métodos abreviados | Sintaxis | Ejemplo | Salida |
 | --- | --- | --- | --- | --- | 
-| Negrita | Command+B (Mac) o Ctrl+B (Windows/Linux) | \*\* \*\ o \_\_ \_\_ | \*\*Texto en negrita\*\* | **Texto en negrita** |
+| Negrita | Command+B (Mac) o Ctrl+B (Windows/Linux) | \*\* \*\* o \_\_ \_\_ | \*\*Texto en negrita\*\* | **Texto en negrita** |
+| Cursiva | Command+I (Mac) o Ctrl+I (Windows/Linux) | \* \* o \_ \_ | \*Texto en cursiva\* | *Texto en cursiva* |
+| Tachado | Ninguno | \~\~ \~\~ | \~\~Texto tachado\~\~ | ~~Texto tachado~~ |
