@@ -1,6 +1,6 @@
 # 1. Taller de Introducción a Markdown
 ## 1.1 ¿Qué es Markdown? 
-[Markdown](https://daringfireball.net/projects/markdown/) es un lenguaje de marcado ligero creado por [John Gruber](https://en.wikipedia.org/wiki/John_Gruber) y [Aaron Swartz](https://es.wikipedia.org/wiki/Aaron_Swartz) que trata de **facilitar la redacción y lectura de documentos en texto plano**, utilizando un conjunto de etiquetas muy sencillas para aplicar estilo al documento.  
+[Markdown](https://youtu.be/dQw4w9WgXcQ) es un lenguaje de marcado ligero creado por [John Gruber](https://en.wikipedia.org/wiki/John_Gruber) y [Aaron Swartz](https://es.wikipedia.org/wiki/Aaron_Swartz) que trata de **facilitar la redacción y lectura de documentos en texto plano**, utilizando un conjunto de etiquetas muy sencillas para aplicar estilo al documento.  
 
 Actualmente no existe un estándar para **Markdown**, por este motivo existen diferentes versiones o flavors de **Markdown**.  
 
@@ -115,8 +115,7 @@ HTML:
 </p>
 ```  
 
-El siguiente código es erróneo, pero se ha introducido para comprobar que aparece
-la identificación indicada entre corchetes [imagen3].  
+El siguiente código es erróneo, pero se ha introducido para comprobar que aparece la identificación indicada entre corchetes [imagen3].  
 
 ```
 Markdown:
@@ -135,5 +134,92 @@ Markdown:
 ![imagen3](/images/instituto.jpeg)  
                                                           
 #### 1.2.7.2 Listas desordenadas anidadas  
-                                                          
-                                                          
+Puedes crear una lista anidada al dejar sangría en uno o más elementos de la lista debajo de otro elemento.  
+**Sintaxis Markdown**  
+
+```
+* Item 1
+  * Item 1.1
+  * Item 1.2
+* Item 2
+  * Item 2.1
+* Item 3
+* Item 4
+```  
+
+**HTML renderizado en GitHub:**  
+* Item 1
+  * Item 1.1
+  * Item 1.2
+* Item 2
+  * Item 2.1
+* Item 3
+* Item 4
+
+#### 1.2.7.4 Listas ordenadas anidadas  
+Puedes crear una lista anidada al dejar sangría en uno o más elementos de la lista debajo de otro elemento.  
+**Sintaxis Markdown**  
+
+```
+1. Item 1
+  1.1 Item 1.1
+  1.2 Item 1.2
+2. Item 2
+  2.1 Item 2.1
+3. Item 3
+4. Item 4
+```  
+
+**HTML renderizado en GitHub:**  
+1. Item 1
+  1.1 Item 1.1
+  1.2 Item 1.2
+2. Item 2
+  2.1 Item 2.1
+3. Item 3
+4. Item 4  
+
+### 1.2.11 Comentarios  
+
+Para poner un comentario en Markdown y que su contenido no sea rendereizado, se
+utiliza la misma sintaxis que los comentarios de HTML.  
+**Sintaxis Markdown:**  
+
+```
+Párrafo 1.
+
+<!-- Este texto es un comentario y no será renderizado -->
+
+Párrafo 2.
+```  
+
+**HTML renderizado en GitHub:**  
+Párrafo 1.
+
+<!-- Este texto es un comentario y no será renderizado -->
+
+Párrafo 2.  
+
+### 1.2.13 Ecuaciones matemáticas  
+
+**Sintaxis Markdown:**  
+Para habilitar una comunicación clara de las expresiones matemáticas, GitHub
+admite expresiones matemáticas con formato LaTeX en Markdown.  
+Como ya se ha comentado, al igual que ocurre con Latex, para poner una ecuación
+se ha de poner entre $ la expresión concreta.  
+* Para insertar una ecuación dentro de una frase, o para utilizar un carácter
+especial, como letras griegas.  
+
+```
+La ecuación, $x=\frac{-b \pm \sqrt{{b}^{2} - 4 \cdot a \cdot c}}{2 \cdot a}$, es de segundo grado.
+```
+* Como bloque.
+```
+La ecuación de segundo grado es: $$x=\frac{-b \pm \sqrt{{b}^{2} - 4 \cdot a \cdot c}}{2 \cdot a}$$
+```  
+
+**HTML renderizado en GitHub:**  
+* Dentro de una frase:  
+La ecuación, $x=\frac{-b \pm \sqrt{{b}^{2} - 4 \cdot a \cdot c}}{2 \cdot a}$, es de segundo grado.  
+* En un bloque:  
+La ecuación de segundo grado es: $$x=\frac{-b \pm \sqrt{{b}^{2} - 4 \cdot a \cdot c}}{2 \cdot a}$$
