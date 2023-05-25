@@ -5,6 +5,7 @@
 Actualmente no existe un estándar para **Markdown**, por este motivo existen diferentes versiones o flavors de **Markdown**.  
 
 En este curso vamos a trabajar con el flavor que se utiliza en GitHub para redactar los archivos README.md de los repositorios y la documentación técnica de los proyectos. Además *GitHub*, junto a *Discourse* o *reddit* están llevando una iniciativa para crear un estándar moderno de **Markdown** como es **CommonMark**.  
+
 En plataformas de repositorios remotos como *GitHub*, la función de este archivo es presentar información del proyecto, como:  
 
 <ul>
@@ -13,4 +14,13 @@ En plataformas de repositorios remotos como *GitHub*, la función de este archiv
   <li> Cómo pueden usarlo los usuarios </li>
   <li> Donde los usuarios pueden encontrar ayuda sobre su proyecto </li>
   <li> Autores del proyecto </li>
-</ul>
+</ul>  
+
+## 1.2 Etiquetas básicas de Markdown
+### 1.2.1 Encabezados  
+
+**Sintaxis Markdown:**  
+
+'''
+# Esto es un encabezado h1
+'''
