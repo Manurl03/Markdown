@@ -99,3 +99,29 @@ farenheit = (1.8 * celsius) + 32
 print
 ```  
 
+### 1.2.6 Imágenes  
+
+**Sintaxis Markdown**  
+
+```
+Markdown:
+![imagen1](https://pro.iesdonana.org/assets/logo.png "Leyenda de la imagen")
+```  
+
+```html
+HTML:
+<p align="center">
+<img src="https://pro.iesdonana.org/assets/logo.png" alt="JuveR
+</p>
+```  
+
+El siguiente código es erróneo, pero se ha introducido para comprobar que aparece
+la identificación indicada entre corchetes [imagen3].  
+
+```
+Markdown:
+![imagen3](/images/instituto.jpeg)
+```  
+> El error, está en que el nombre del archivo que hay dentro de la carpeta
+"images" es "instituto.jpg".  
+**HTML renderizado en GitHub:**  
