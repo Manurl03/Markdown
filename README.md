@@ -129,7 +129,7 @@ Markdown:
 ![imagen1](https://pro.iesdonana.org/assets/logo.png "Leyenda de la imagen")  
 
 <p align="center">
-<img src="https://pro.iesdonana.org/assets/logo.png" alt="JuveR" width="100px">
+<img src="https://pro.iesdonana.org/assets/logo.png" alt="JuveR" width="300px">
 </p>  
                                                           
 ![imagen3](/images/instituto.jpeg)  
